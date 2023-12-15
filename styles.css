@@ -1,0 +1,89 @@
+body {
+  background-image: url("pexels-breakingpic-3299.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+    margin-top: 450px;
+    text-align: center;
+    background-color: #292828a3;
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-task {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #f3eeee;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(222, 214, 214, 0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.actions {
+    display: flex;
+}
+
+.actions button {
+    margin-left: 5px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions button.edit {
+    background-color: #2196F3;
+}
+
+.actions button:hover {
+    background-color: #d32f2f;
+}
+
+.actions button.edit:hover {
+    background-color: #1565C0;
+}
